@@ -369,7 +369,10 @@ body {
 
 .services {
     margin-bottom: 90px;
-    padding: 0 10px;
+}
+
+.services .container {
+    padding: 0;
 }
 
 .servises__btns {
@@ -807,7 +810,8 @@ body {
     margin-right: 70px;
 }
 
-.contacts__map.contacts__map--adaptive {
+.contacts__map.contacts__map--adaptive,
+.contacts__map.contacts__map--adaptive--2 {
     display: none;
 }
 
