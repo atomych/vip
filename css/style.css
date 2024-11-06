@@ -302,7 +302,7 @@ body {
 
 .main-about {
     margin-bottom: 90px;
-    padding: 0 10px;
+    padding-right: 10px;
 }
 
 .main-about__wrapper {
@@ -361,6 +361,7 @@ body {
 
 .main-about__btn {
     width: 420px;
+    background-color: transparent !important;
 }
 
 /* 
@@ -761,7 +762,6 @@ body {
 
 .memberships {
     margin-bottom: 60px;
-    padding: 0 10px;
 }
 
 .memberships__wrapper {
@@ -789,6 +789,7 @@ body {
 
 .memberships__img {
     justify-self: flex-end;
+    padding: 0 10px;
 }
 
 /* 

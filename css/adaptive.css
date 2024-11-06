@@ -7,6 +7,12 @@
         display: flex;
         max-width: 1080px;
     }
+
+    .services__main-btn {
+        width: 1080px;
+        margin: 0 auto;
+        display: block;
+    }
 }
 
 @media (max-width: 1455px) {
@@ -159,7 +165,11 @@
 
 @media (max-width: 1115px) {
     .services__list.services__list--adaptive {
-        max-width: 750px;
+        max-width: 720px;
+    }
+
+    .services__main-btn {
+        width: 720px;
     }
 }
 
@@ -304,7 +314,31 @@
     }
 
     .services__list.services__list--adaptive {
-        max-width: 610px;
+        max-width: 600px;
+    }
+
+    .services__main-btn {
+        width: 600px;
+    }
+
+    .before-after__btn,
+    .vipclinic__btn {
+        width: 330px;
+        padding: 10px 0 !important;
+    }
+
+    .icon img {
+        width: 31px;
+        height: auto;
+    }
+
+    .contacts__logo {
+        justify-content: start;
+    }
+
+    .contacts__logo img {
+        width: 150px;
+        height: auto;
     }
 }
 
@@ -373,6 +407,10 @@
 
     .services__list.services__list--adaptive {
         max-width: 450px;
+    }
+
+    .services__main-btn {
+        width: 450px;
     }
 }
 
@@ -456,6 +494,11 @@
 
     .services__list.services__list--adaptive {
         max-width: 400px;
+    }
+
+    .services__main-btn {
+        width: 330px;
+        padding: 10px 0 !important;
     }
 
     .services .item__title {
